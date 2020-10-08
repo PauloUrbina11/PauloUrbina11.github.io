@@ -1,0 +1,128 @@
+*{
+				margin:0px;
+				padding:0px;
+}
+
+header {
+				font-family:Arial, Helvetica, sans-serif;
+        width: 100%;
+}
+
+nav{
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  background-color: #3498DB;
+  text-align: center;
+}
+
+nav, ul {
+    list-style: none;
+    background-color: #3498DB;
+}
+
+.navegacion{
+  display: flex;
+}
+
+div img{
+  height: 25px;
+  width: 20px;
+  margin: -8px 18px;
+  padding-right: 20px;
+}
+
+.sena img:hover{
+  background-color: #2471A3;
+}
+
+.perfil ul:hover{
+  width: 90px;
+}
+
+.perfil{
+  display: inline-flex;
+  width: 350px;
+}
+
+input{
+  margin-top: 7px;
+}
+
+.menu li a {
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display: inline-table;
+        width: 100%;
+}
+
+.menu li a:hover {
+				background-color:#2471A3;
+
+}
+
+.menu li ul {
+				display:none;
+				position:absolute;
+        width: 90px;
+        padding-right: 24px;
+}
+
+.menu li:hover > ul {
+				display:block;
+}
+
+.menu li ul li {
+				position:relative;
+}
+
+.menu li ul li ul {
+				top:0px;
+}
+
+.perfil li button{
+  width: 30px;
+  border: none;
+  background: none;
+  margin-right: 30px;
+  margin-top: 7px;
+  margin-left: -6px;
+  cursor: pointer;
+}
+
+button img{
+  height: 20px;
+  width: 20px;
+}
+
+button:focus{
+  outline: none;
+}
+
+.barra{
+  -webkit-box-sizing: content-box;
+ -moz-box-sizing: content-box;
+ box-sizing: content-box;
+ padding: 0 20px 0 5px;
+ border-color: #888;
+ border-radius: 35px;
+ border-style: solid;
+ border-width: 5px;
+ margin-top: 5px;
+ color: #333;
+ font-family: 'Helvetica', sans-serif;
+ font-size: 14px;
+ -webkit-appearance: none;
+ -moz-appearance: none;
+}
+
+.barra:focus{
+  outline: none;
+}
+
+@media screen and (min-width:300px) and (max-width:800px) {
+header{width: 1000px;}
+sidebar{display:none;}
+}
